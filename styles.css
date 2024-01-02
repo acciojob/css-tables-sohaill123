@@ -1,1 +1,26 @@
-/*  your css code here. If applicable */
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.styled-table th,
+.styled-table td {
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Set border-radius for each cell */
+    padding: 0.5rem;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
